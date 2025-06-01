@@ -7,7 +7,6 @@
 //Усі символи slug повинні бути в нижньому регістрі.
 //Усі слова slug повинні бути розділені тире.
 
-
 function slugify(title) {
   const slug = title.toLowerCase().split(' ').join('-');  
   return slug;
